@@ -1,0 +1,24 @@
+---
+title: "CV"
+author: "Yichi Zhang"
+date: "12/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(pagedown)
+library(datadrivencv)
+library(pagedown)
+```
+
+```{r}
+datadrivencv::use_datadriven_cv(
+  full_name = "Yichi Zhang",
+  data_location = "https://docs.google.com/spreadsheets/d/1HgYEzcGNltDNy7PJdVLGO_QZZWiONL-4hTnxHYs-_KM/edit#gid=917338460",
+  pdf_location = "https://github.com/YichiZhang2024/Resume-and-CV/CV 2020.pdf",
+  html_location = "https://github.com/YichiZhang2024/Resume-and-CV/CV2 020.html ",
+  source_location = "https://github.com/nstrayer/cv"
+)
+```
+
