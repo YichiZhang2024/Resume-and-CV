@@ -54,9 +54,9 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _https://github.com/YichiZhang2024/Resume-and-CV/Yichi_Zhang_CV_2020.html")
+  cat("View this CV online with links at https://github.com/YichiZhang2024/Resume-and-CV/blob/master/Yichi_Zhang_CV_2020.html")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/YichiZhang2024/Resume-and-CV/CV2020.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/YichiZhang2024/Resume-and-CV/Yichi_Zhang_CV_2020.pdf)")
 }
 ```
 
